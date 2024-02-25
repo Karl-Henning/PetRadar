@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB5B59342B8C00C900378209 /* PetRadarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5B59332B8C00C900378209 /* PetRadarApp.swift */; };
+		CB5B59362B8C00C900378209 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5B59352B8C00C900378209 /* ContentView.swift */; };
+		CB5B59382B8C00C900378209 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5B59372B8C00C900378209 /* Item.swift */; };
+		CB5B593A2B8C00CA00378209 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB5B59392B8C00CA00378209 /* Assets.xcassets */; };
+		CB5B593D2B8C00CA00378209 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB5B593C2B8C00CA00378209 /* Preview Assets.xcassets */; };
+		CB5B59472B8C00CA00378209 /* PetRadarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5B59462B8C00CA00378209 /* PetRadarTests.swift */; };
+		CB5B59512B8C00CA00378209 /* PetRadarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5B59502B8C00CA00378209 /* PetRadarUITests.swift */; };
+		CB5B59532B8C00CA00378209 /* PetRadarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5B59522B8C00CA00378209 /* PetRadarUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB5B59432B8C00CA00378209 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB5B59282B8C00C900378209 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB5B592F2B8C00C900378209;
+			remoteInfo = PetRadar;
+		};
+		CB5B594D2B8C00CA00378209 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB5B59282B8C00C900378209 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB5B592F2B8C00C900378209;
+			remoteInfo = PetRadar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB5B59302B8C00C900378209 /* PetRadar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetRadar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB5B59332B8C00C900378209 /* PetRadarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetRadarApp.swift; sourceTree = "<group>"; };
+		CB5B59352B8C00C900378209 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CB5B59372B8C00C900378209 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		CB5B59392B8C00CA00378209 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB5B593C2B8C00CA00378209 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CB5B59422B8C00CA00378209 /* PetRadarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetRadarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB5B59462B8C00CA00378209 /* PetRadarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetRadarTests.swift; sourceTree = "<group>"; };
+		CB5B594C2B8C00CA00378209 /* PetRadarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetRadarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB5B59502B8C00CA00378209 /* PetRadarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetRadarUITests.swift; sourceTree = "<group>"; };
+		CB5B59522B8C00CA00378209 /* PetRadarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetRadarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB5B592D2B8C00C900378209 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5B593F2B8C00CA00378209 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5B59492B8C00CA00378209 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB5B59272B8C00C900378209 = {
+			isa = PBXGroup;
+			children = (
+				CB5B59322B8C00C900378209 /* PetRadar */,
+				CB5B59452B8C00CA00378209 /* PetRadarTests */,
+				CB5B594F2B8C00CA00378209 /* PetRadarUITests */,
+				CB5B59312B8C00C900378209 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB5B59312B8C00C900378209 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB5B59302B8C00C900378209 /* PetRadar.app */,
+				CB5B59422B8C00CA00378209 /* PetRadarTests.xctest */,
+				CB5B594C2B8C00CA00378209 /* PetRadarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB5B59322B8C00C900378209 /* PetRadar */ = {
+			isa = PBXGroup;
+			children = (
+				CB5B59332B8C00C900378209 /* PetRadarApp.swift */,
+				CB5B59352B8C00C900378209 /* ContentView.swift */,
+				CB5B59372B8C00C900378209 /* Item.swift */,
+				CB5B59392B8C00CA00378209 /* Assets.xcassets */,
+				CB5B593B2B8C00CA00378209 /* Preview Content */,
+			);
+			path = PetRadar;
+			sourceTree = "<group>";
+		};
+		CB5B593B2B8C00CA00378209 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CB5B593C2B8C00CA00378209 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CB5B59452B8C00CA00378209 /* PetRadarTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB5B59462B8C00CA00378209 /* PetRadarTests.swift */,
+			);
+			path = PetRadarTests;
+			sourceTree = "<group>";
+		};
+		CB5B594F2B8C00CA00378209 /* PetRadarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB5B59502B8C00CA00378209 /* PetRadarUITests.swift */,
+				CB5B59522B8C00CA00378209 /* PetRadarUITestsLaunchTests.swift */,
+			);
+			path = PetRadarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB5B592F2B8C00C900378209 /* PetRadar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB5B59562B8C00CA00378209 /* Build configuration list for PBXNativeTarget "PetRadar" */;
+			buildPhases = (
+				CB5B592C2B8C00C900378209 /* Sources */,
+				CB5B592D2B8C00C900378209 /* Frameworks */,
+				CB5B592E2B8C00C900378209 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PetRadar;
+			productName = PetRadar;
+			productReference = CB5B59302B8C00C900378209 /* PetRadar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB5B59412B8C00CA00378209 /* PetRadarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB5B59592B8C00CA00378209 /* Build configuration list for PBXNativeTarget "PetRadarTests" */;
+			buildPhases = (
+				CB5B593E2B8C00CA00378209 /* Sources */,
+				CB5B593F2B8C00CA00378209 /* Frameworks */,
+				CB5B59402B8C00CA00378209 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB5B59442B8C00CA00378209 /* PBXTargetDependency */,
+			);
+			name = PetRadarTests;
+			productName = PetRadarTests;
+			productReference = CB5B59422B8C00CA00378209 /* PetRadarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB5B594B2B8C00CA00378209 /* PetRadarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB5B595C2B8C00CA00378209 /* Build configuration list for PBXNativeTarget "PetRadarUITests" */;
+			buildPhases = (
+				CB5B59482B8C00CA00378209 /* Sources */,
+				CB5B59492B8C00CA00378209 /* Frameworks */,
+				CB5B594A2B8C00CA00378209 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB5B594E2B8C00CA00378209 /* PBXTargetDependency */,
+			);
+			name = PetRadarUITests;
+			productName = PetRadarUITests;
+			productReference = CB5B594C2B8C00CA00378209 /* PetRadarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB5B59282B8C00C900378209 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					CB5B592F2B8C00C900378209 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					CB5B59412B8C00CA00378209 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = CB5B592F2B8C00C900378209;
+					};
+					CB5B594B2B8C00CA00378209 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = CB5B592F2B8C00C900378209;
+					};
+				};
+			};
+			buildConfigurationList = CB5B592B2B8C00C900378209 /* Build configuration list for PBXProject "PetRadar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB5B59272B8C00C900378209;
+			productRefGroup = CB5B59312B8C00C900378209 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB5B592F2B8C00C900378209 /* PetRadar */,
+				CB5B59412B8C00CA00378209 /* PetRadarTests */,
+				CB5B594B2B8C00CA00378209 /* PetRadarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB5B592E2B8C00C900378209 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB5B593D2B8C00CA00378209 /* Preview Assets.xcassets in Resources */,
+				CB5B593A2B8C00CA00378209 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5B59402B8C00CA00378209 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5B594A2B8C00CA00378209 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB5B592C2B8C00C900378209 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB5B59362B8C00C900378209 /* ContentView.swift in Sources */,
+				CB5B59382B8C00C900378209 /* Item.swift in Sources */,
+				CB5B59342B8C00C900378209 /* PetRadarApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5B593E2B8C00CA00378209 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB5B59472B8C00CA00378209 /* PetRadarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5B59482B8C00CA00378209 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB5B59532B8C00CA00378209 /* PetRadarUITestsLaunchTests.swift in Sources */,
+				CB5B59512B8C00CA00378209 /* PetRadarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB5B59442B8C00CA00378209 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB5B592F2B8C00C900378209 /* PetRadar */;
+			targetProxy = CB5B59432B8C00CA00378209 /* PBXContainerItemProxy */;
+		};
+		CB5B594E2B8C00CA00378209 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB5B592F2B8C00C900378209 /* PetRadar */;
+			targetProxy = CB5B594D2B8C00CA00378209 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CB5B59542B8C00CA00378209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB5B59552B8C00CA00378209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB5B59572B8C00CA00378209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PetRadar/Preview Content\"";
+				DEVELOPMENT_TEAM = KRA677Q4CB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.khenning.PetRadar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB5B59582B8C00CA00378209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PetRadar/Preview Content\"";
+				DEVELOPMENT_TEAM = KRA677Q4CB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.khenning.PetRadar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CB5B595A2B8C00CA00378209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KRA677Q4CB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.khenning.PetRadarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetRadar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PetRadar";
+			};
+			name = Debug;
+		};
+		CB5B595B2B8C00CA00378209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KRA677Q4CB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.khenning.PetRadarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetRadar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PetRadar";
+			};
+			name = Release;
+		};
+		CB5B595D2B8C00CA00378209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KRA677Q4CB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.khenning.PetRadarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PetRadar;
+			};
+			name = Debug;
+		};
+		CB5B595E2B8C00CA00378209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KRA677Q4CB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.khenning.PetRadarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PetRadar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB5B592B2B8C00C900378209 /* Build configuration list for PBXProject "PetRadar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB5B59542B8C00CA00378209 /* Debug */,
+				CB5B59552B8C00CA00378209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB5B59562B8C00CA00378209 /* Build configuration list for PBXNativeTarget "PetRadar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB5B59572B8C00CA00378209 /* Debug */,
+				CB5B59582B8C00CA00378209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB5B59592B8C00CA00378209 /* Build configuration list for PBXNativeTarget "PetRadarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB5B595A2B8C00CA00378209 /* Debug */,
+				CB5B595B2B8C00CA00378209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB5B595C2B8C00CA00378209 /* Build configuration list for PBXNativeTarget "PetRadarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB5B595D2B8C00CA00378209 /* Debug */,
+				CB5B595E2B8C00CA00378209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB5B59282B8C00C900378209 /* Project object */;
+}
